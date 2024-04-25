@@ -1,0 +1,190 @@
+{
+  "Gujarat": [
+    {
+      "application_name": "e-Dhara Land Records",
+      "application_link": "https://anyror.gujarat.gov.in/",
+      "application_info": "Users can view land records",
+      "categories": [ "General" ]
+    },
+    {
+      "application_name": "e-HRMS",
+      "application_link": "https://e-hrms.gujarat.gov.in/#",
+      "application_info": "The Aanganwadi Worker (AWW) and Aanganwadi Helper (AWH) recruitment process is provided through the e-HRMS Gujarat application.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+    },
+    {
+      "application_name": "e-SamajKalyan",
+      "application_link": "https://esamajkalyan.gujarat.gov.in/",
+      "application_info": "This application helps individuals who belongs to society's underprivileged sections to get economic help by applying for various schemes.",
+      "categories": [ "Social Security & Pensioners" ]
+    },
+    {
+      "application_name": "Gujarat Education Department",
+      "application_link": "https://mysy.guj.nic.in/",
+      "application_info": "The Government of Gujarat is always striving to provide incentives/Stipends to the students interested in higher study ,quality research. Gujrat Education Department offering scholarships to the economically weaker section students of Gujarat.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+    },
+    {
+      "application_name": "Gujarat-iKhedut",
+      "application_link": "https://ikhedut.gujarat.gov.in/",
+      "application_info": "This service helps Farmers/Applicant to apply for subsidy under multiple services.",
+      "categories": [ "Farmers" ]
+    },
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "My Ration-Gujarat",
+      "application_link": "https://dcs-dof.gujarat.gov.in/index-eng.htm",
+      "application_info": "Department of Food & Civil Supplies-Gujarat aims at providing food security to the poor in Gujarat State.",
+      "categories": [ "Mera Ration" ]
+    },
+    {
+      "application_name": "OJAS",
+      "application_link": "https://ojas.gujarat.gov.in/",
+      "application_info": "Recruitment portal for government of Gujarat",
+      "categories": [ "Education", "Skills & Employment" ]
+    },
+    {
+      "application_name": "Revenue Department(Gujarat)",
+      "application_link": "https://revenuedepartment.gujarat.gov.in/",
+      "application_info": "Users can view status of their certificate application",
+      "categories": [ "e-District Services" ]
+    }
+  ],
+
+  "Madhya Pradesh": [
+    {
+      "application_name": "e-District Madhya Pradesh",
+      "application_link": "https://mpedistrict.gov.in/MPL/Index.aspx",
+      "application_info": "MP e-District application allows citizens to apply for various e-District services, track status, and download certificates using this application.",
+      "categories": [ "e-District Services" ]
+    },
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "MP eCOP",
+      "application_link": "https://www.mppolice.gov.in/en",
+      "application_info": "Users can avail important services such as telephone numbers and helpline numbers of the senior offices/police stations, search for seized vehicles, search for missing persons and unknown dead bodies.",
+      "categories": [ "Police & Legal" ]
+    },
+    {
+      "application_name": "MP e-Nagar Palika",
+      "application_link": "http://www.mpenagarpalika.gov.in/",
+      "application_info": "Municipal services to citizens through various delivery channels",
+      "categories": [ "Utility & Bill Payments" ]
+    },
+    {
+      "application_name": "MP MSME",
+      "application_link": "http://mpmsme.gov.in/",
+      "application_info": "Work for Industrialization and promote socio-economic growth.",
+      "categories": [ "General" ]
+    },
+    {
+      "application_name": "MP RCMS",
+      "application_link": "http://rcms.mp.gov.in/",
+      "application_info": "Petitioners can view the services provided by MPRCMS.",
+      "categories": [ "Utility & Bill Payments" ]
+    },
+    {
+      "application_name": "MP Transport",
+      "application_link": "http://mis.mptransport.org/MPLogin/eLogin.aspx",
+      "application_info": "citizen centric services using Information Technology in E-Governance efforts.",
+      "categories": [ "Transport"]
+    },
+    {
+      "application_name": "Shram Sewa",
+      "application_link": "https://labour.mponline.gov.in/",
+      "application_info": "Committed to create healthy work environment for smooth production process.",
+      "categories": [ "Utility & Bill Payments"]
+    }
+  ],
+
+  "Rajasthan": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "e-Mitra Rajasthan",
+      "application_link": "http://emitra.rajasthan.gov.in/",
+      "application_info": "Track status for applications applied via eMitra portal",
+      "categories": [ "e-District Services"]
+    }
+  ],
+
+  "Goa": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Directorate of Higher Education-Goa",
+      "application_link": "https://bursary.dhe.goa.gov.in/",
+      "application_info": "Directorate of Higher Education formulated Scheme for the grant of financial assistance towards the fees paid for various courses under Higher and Technical Education.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+    },
+    {
+      "application_name": "e-Krishi (Goa)",
+      "application_link": "https://www.agri.goa.gov.in/",
+      "application_info": "Directorate of Agriculture, Goa. to take suitable measures for the welfare of the farmer and exercise appropriate budgetary control on Agricultural development programme and other activities",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Farmers" ]
+    },
+    {
+      "application_name": "Municipal Administration GOA",
+      "application_link": "https://goaulbservice.gov.in/Home.aspx",
+      "application_info": "Citizens can avail Goa Municipal Administration services.",
+      "categories": [ "e-District Services" ]
+    }
+  ],
+
+  "Chattisgarh": [
+    {
+      "application_name": "Chhattisgarh e-District",
+      "application_link": "https://edistrict.cgstate.gov.in/PACE/login.do",
+      "application_info": "CG e District in Chhattisgarh, the state government has launched the Chhattisgarh e-District portal for the work related to making certificates and government documents, etc. for the common citizens.",
+      "categories": [ "e-District Services" ]
+    },
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    }
+  ],
+
+  "West Bengal": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    }
+  ],
+
+  "Puducherry": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Department of Civil Supplies and Consumer Affairs",
+      "application_link": "https://dcsca.py.gov.in/",
+      "application_info": "This department aims to transfer subsidies directly to the people through their bank accounts.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration"]
+    }
+  ]
+}

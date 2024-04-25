@@ -1,0 +1,890 @@
+{
+    "Jammu and Kashmir": [
+        {
+            "application_name": "Department of Health and Medical Education (J&K)",
+            "application_link": "https://hme.jk.gov.in/",
+            "application_info": "Aims to strengthen an enabling environment to enhance the contribution of Horticulture in GDP, making the growers of J&K market leader in high quality produce through efficient and profitable processes which will deliver value to our expertise, increasing returns to growers and enhancing employment.",
+            "categories": ["Education", "Skills and Empowerment"]
+        },
+        {
+            "application_name": "Department of Horticulture (J&K)",
+            "application_link": "https://horticulture.jk.gov.in/",
+            "application_info": "Aims to strengthen an enabling environment to enhance the contribution of Horticulture in GDP, making the growers of J&K market leader in high quality produce through efficient and profitable processes which will deliver value to our expertise, increasing returns to growers and enhancing employment.",
+            "categories": ["Education", "Skills and Empowerment"]
+        },
+        {
+            "application_name": "Department of Rural Development and Pachayati Raj (J&K)",
+            "application_link": "https://jkpanchayat.jk.gov.in/",
+            "application_info": "Focuses on rural development and Panchayati Raj in J&K.",
+            "categories": ["Education", "Skills and Empowerment"]
+        },
+        {
+            "application_name": "J&K Board of Technical Education",
+            "application_link": "https://jksbotelive.com/",
+            "application_info": "Responsible for specifying the educational and other qualifications for admission of students to recognized/affiliated institutions at Polytechnics and ITI levels.",
+            "categories": ["Education", "Skills and Empowerment"]
+        },
+        {
+            "application_name": "J&K Power Development Department",
+            "application_link": "https://pdd.jk.gov.in",
+            "application_info": "Responsible for the development, maintenance, and operation of power generation, transmission, and distribution infrastructure in Jammu and Kashmir.",
+            "categories": ["Utility and Bill Payments"]
+        },
+        {
+            "application_name": "J&K Tourism Development Department",
+            "application_link": "https://www.jktdc.co.in/",
+            "application_info": "Objective is to run, manage and administer hotels in Jammu and Kashmir for promotion of Tourism and providing best transport facilities to the tourist.",
+            "categories": ["General"]
+        },
+        {
+            "application_name": "J&K Revenue Department",
+            "application_link": "https://jkrevenue.nic.in/",
+            "application_info": "Responsible for administering land revenue, taxation, and related matters in Jammu and Kashmir.",
+            "categories": ["General"]
+        },
+        {
+            "application_name": "ITI Admissions J&K",
+            "application_link": "https://itiadmissions.jkdsd.in",
+            "application_info": "JK ITI application process for admission in various engineering and non-engineering courses to private and government ITI institutes of Jammu and Kashmir organized by the Department of Skill Development, Jammu and Kashmir.",
+            "categories": ["Youth", "Skills and Empowerment"]
+        },
+        {
+            "application_name": "J&K E-Services",
+            "application_link": "https://www.jk.gov.in/jkeservices/home",
+            "application_info": "Comprehensive service on UMANG application through which citizens of UT of Jammu and Kashmir can access various services provided by the Government.",
+            "categories": ["General"]
+        }
+    ],
+    "Himachal Pradesh": [
+        {
+            "application_name": "HP Horticulture",
+            "application_link": "https://eudyan.hp.gov.in/Department/Index.aspx",
+            "application_info": "Functions with the objective of building a prosperous Himachal through scientific development of horticulture by harnessing the natural resources for the development of a sustainable system of agriculture in the hilly areas.",
+            "categories": ["Agriculture"]
+        },
+        {
+            "application_name": "Revenue Department (HP)",
+            "application_link": "https://himachal.nic.in/index.php?lang=1&dpt_id=13",
+            "application_info": "Provides certificates to HP citizens such as Bonafide, Backward Area, OBC, Income, Dogra, Domicile and Caste.",
+            "categories": ["Trade and Business"]
+        }
+    ],
+    "Punjab": [
+        {
+            "application_name": "Social Security and Woman & Child Development",
+            "application_link": "https://sswcd.punjab.gov.in/en",
+            "application_info": "Started functioning in the year 1955 for the welfare of Widows & Destitute women; Old Age Persons; Blind and Mentally Retarded and Orphaned & Dependent children along with steps to curb immoral trafficking.",
+            "categories": ["Social Welfare"]
+        }
+    ],
+    "Haryana": [
+        {
+            "application_name": "Agriculture Department Haryana",
+            "application_link": "https://agriharyana.gov.in/",
+            "application_info": "Plays a crucial role in driving agricultural growth, ensuring food security, and improving the livelihoods of farmers in the state.",
+            "categories": ["Farmers", "General"]
+        },
+        {
+            "application_name": "Antyodaya Saral Haryana",
+            "application_link": "https://saralharyana.gov.in/",
+            "application_info": "Aligning with Digital India’s vision of faceless, paperless and cashless service/scheme delivery model, Antyodaya-SARAL aims to transform citizen service delivery in Haryana through complete digitization of over 600+ services.",
+            "categories": ["e-District Services"]
+        },
+        {
+            "application_name": "Chief Minister Relief Fund (Haryana)",
+            "application_link": "https://saralharyana.gov.in/directApply.do?serviceId=1659",
+            "application_info": "Managed and administered by the state government, and contributions to this fund come from various sources including government allocations, donations from individuals, organizations, and corporate entities.",
+            "categories": ["Education", "Skills & Employment"]
+        },
+        {
+            "application_name": "Department of Home- Haryana",
+            "application_link": "https://homeharyana.gov.in/",
+            "categories": ["Police and Legal"]
+        },
+        {
+            "application_name": "Department of Mines & Geology (Haryana)",
+            "application_link": "https://minesharyana.gov.in/en",
+            "application_info": "Responsible for systematic development [exploration and exploitation] of the mineral resources in the State following the principles of sustainable development.",
+            "categories": ["Education", "Skills & Employment", "General"]
+        },
+        {
+            "application_name": "Department of Power Haryana",
+            "application_link": "https://powermin.gov.in/en/content/haryana",
+            "application_info": "",
+            "categories": ["Education", "Skills & Employment", "Utility & Payments"]
+        },
+        {
+            "application_name": "Department of Science and Technology Haryana",
+            "application_link": "https://dst.highereduhry.ac.in/",
+            "application_info": "",
+            "categories": ["Education", "Skills & Employment", "Utility & Bill Payments"]
+        },
+        {
+            "application_name": "Department of Urban Local Bodies- Haryana",
+            "application_link": "https://ulbharyana.gov.in/",
+            "application_info": "Provides a number of services to citizens across the state in 88 Urban Local Bodies. IT based service delivery has been identified as a key tool to enhance service delivery ad efficiency.",
+            "categories": ["General"]
+        }
+    ],
+    "Delhi": [
+        {
+            "application_name": "Delhi Metro",
+            "application_link": "https://www.delhimetrorail.com/",
+            "application_info": "",
+            "categories": ["Public Welfare"]
+        },
+        {
+            "application_name": "Delhi Police",
+            "application_link": "https://delhipolice.gov.in/",
+            "application_info": "",
+            "categories": ["Public Welfare"]
+        },
+        {
+            "application_name": "Department of Information Technology",
+            "application_link": "https://it.delhi.gov.in/",
+            "application_info": "Set up in year 2000 to implement the Information Technology (IT) Policy of Govt. of National Capital Territory of Delhi. Working to put technology to its highest and best use throughout Delhi Government Department/Autonomous Bodies to improve the administration of State programmes and services.",
+            "categories": ["Technical Education"]
+        },
+        {
+            "application_name": "ITPO Delhi",
+            "application_link": "https://www.indiatradefair.com/",
+            "application_info": "",
+            "categories": ["Trade and Business"]
+        },
+        {
+            "application_name": "Listening Post of Lt. Governor Delhi",
+            "application_link": "https://listeningpostdelhilg.in/",
+            "application_info": "",
+            "categories": ["Public Grievances"]
+        },
+        {
+            "application_name": "NDMC",
+            "application_link": "https://www.ndmc.gov.in/",
+            "application_info": "",
+            "categories": ["General"]
+        },
+        {
+            "application_name": "Parivahan Sewa Delhi",
+            "application_link": "https://parivahan.gov.in/parivahan/",
+            "application_info": "",
+            "categories": ["Public Welfare"]
+        },
+        {
+            "application_name": "Ministry of Road Transport and Highways",
+            "application_link": "https://morth.nic.in",
+            "application_info": "To improve the quality of service delivery to the citizen and the quality of work environment of the RTOs.",
+            "categories": ["Public Welfare"]
+        }
+    ],
+    "Uttar Pradesh": [
+        {
+            "application_name": "Backward Class Welfare Department",
+            "application_link": "https://www.backwardwelfareup.gov.in/en",
+            "application_info": "",
+            "categories": ["Public Welfare"]
+        },
+        {
+            "application_name": "Department of Medical Health and Family Welfare (UP)",
+            "application_link": "https://www.up-health.in/en/",
+            "application_info": "Playing a vital role in improving the health status & living quality of the people of Uttar Pradesh.",
+            "categories": ["Medical Services"]
+        },
+        {
+            "application_name": "Parivahan Sewa",
+            "application_link": "https://parivahan.gov.in/parivahan/",
+            "application_info": "",
+            "categories": ["General"]
+        },
+        {
+            "application_name": "SCVT",
+            "application_link": "https://scvtup.in/en",
+            "application_info": "State Council for Vocational Training, Uttar Pradesh",
+            "categories": ["Skills and Youth Empowerment"]
+        },
+        {
+            "application_name": "Uttar Pradesh Madhyamik Shiksha Parishad (UPMSP)",
+            "application_link": "upmsp.edu.in",
+            "application_info": "",
+            "categories": ["Education"]
+        },
+        {
+            "application_name": "UP COP",
+            "application_link": "https://uppolice.gov.in/",
+            "application_info": "",
+            "categories": ["Public Welfare"]
+        }
+    ],
+    "Chandigarh": [
+        {
+            "application_name": "CCET Chandigarh",
+            "application_link": "https://www.ccet.ac.in",
+            "application_info": "",
+            "categories": ["Education, skills and employment"]
+        },
+        {
+            "application_name": "Chandigarh Sports Scholarship",
+            "application_link": "https://sportsdeptt.chd.gov.in/pages/scholarship_scheme",
+            "application_info": "The Sports Department, Chandigarh Administration awards scholarships to players who excel at the State level. Players who excel at National / International level are awarded a cash prize by the Chandigarh Sports Council.",
+            "categories": ["General"]
+        },
+        {
+            "application_name": "Department of Food and Supply",
+            "application_link": "http://www.etula.chdfood.gov.in/",
+            "application_info": "The wing is entrusted with the work of checking and inspection of weights and measures in all commercial establishments across Chandigarh. The main objectives of the Legal Metrology Wing are to safeguard the interest of consumers by ensuring that goods sold and bought are correct in quantity and volume as claimed.",
+            "categories": []
+        },
+        {
+            "application_name": "Department of Social Welfare, Women and Children",
+            "application_link": "https://chdsw.gov.in/",
+            "application_info": "",
+            "categories": ["Social Welfare"]
+        },
+        {
+            "application_name": "Directorate of School Education Chandigarh",
+            "application_link": "https://www.chdeducation.gov.in/",
+            "application_info": "All the inhabited sectors in UT Chandigarh are covered by school education as per habitation norms.",
+            "categories": ["Education"]
+        },
+        {
+            "application_name": "e-District Chandigarh",
+            "application_link": "http://chdservices.gov.in/",
+            "application_info": "e-District is a State Mission Mode Project under the National e-Governance Plan. The project aims to target high volume services currently not covered by any MMP under NeGP and undertake backend computerization to e-enable the delivery of these services through Common Service Centers.",
+            "categories": ["Legal Services"]
+        },
+        {
+            "application_name": "eSampark Chandigarh",
+            "application_link": "https://sampark.chd.nic.in/Epayment/index.aspx",
+            "application_info": "e-Sampark was initiated to bring together the services of all the departments under one single umbrella and give citizens of Chandigarh a 'multi-service' - 'single-window' experience apart from eradicating the undue harassment met by the citizens due to lack of transparency.",
+            "categories": ["Services"]
+        },
+        {
+            "application_name": "Health Department (GMSH) Chandigarh",
+            "application_link":"https://chandigarh.gov.in/departments/other-departments/health",
+            "application_info": "This is a patient friendly hospital, known for prompt and efficient services. It caters to the needs of all alike. This 500 bedded hospital has 24 hrs round the clock emergency and indoor facilities manned by specialists.",
+            "categories": ["Healthcare"]
+        },
+        {
+            "application_name": "Zila Sainik Board Chandigarh",
+            "application_link": "http://chandigarhsainikwelfare.org/",
+            "application_info": "Zila Sainik Board (UT) was constituted on 01 Apr 1978 to look after the welfare and resettlement of ex-servicemen, servicemen, widows and their dependents residing in UT Chandigarh.",
+            "categories": ["Utility and Bill Payment"]
+        }
+    ],
+    "Assam": [
+        {
+            "application_name": "Assam Power Distribution Company Ltd",
+            "application_link": "https://www.apdcl.org/website/",
+            "application_info": "APDCL is a public limited company that undertake distribution, trading and supply of electricity in the state of Assam.",
+            "categories": ["General"]
+        },
+        {
+            "application_name": "Assam Tea Employees Provident Fund Organization(A.T.E.P.F.O)",
+            "application_link": "https://atepfo.in/",
+            "application_info": "Assam tea Garden workers can track status of their ATEPFO account.",
+            "categories": ["Direct Benefit Transfer", "Social Security & Pensioners"]
+        }
+    ],
+    "Lakshadweep": [
+        {
+            "application_name": "Revenue Department (Lakshadweep)",
+            "application_link": "https://lakshadweep.gov.in",
+            "application_info": "Issue of Family Income Certificate to Individuals of Lakshadweep Islands",
+            "categories": ["e-District Services", "General"]
+        }
+    ],
+    "Manipur": [
+        {
+            "application_name": "e-District Manipur",
+            "application_link": "https://www.eservicesmanipur.gov.in/eda/",
+            "application_info": "The citizens of Manipur can apply for certificates, track application and download for certificates such as Permanent Resident, Domicile, SC, ST, Birth, Death Certificate and so on for the self and dependent.",
+            "categories": ["e-District Services"]
+        }
+    ],
+    "Andaman and Nicobar Islands": [
+        {
+            "application_name": "Agriculture Department - Andaman and Nicobar",
+            "application_link": "https://agri.and.nic.in/",
+            "application_info": "Agriculture department of Andaman and Nicobar plays as a crucial role in supporting the agricultural sector and ensuring food security, livelihoods, and sustainable development in the region.",
+            "categories": ["Farmers"]
+        },
+        {
+            "application_name": "Andaman & Nicobar Administration(ANA)",
+            "application_link": "https://edistrict.andaman.gov.in/",
+            "application_info": "",
+            "categories": ["Farmers"]
+        },
+        {
+            "application_name": "Department of Animal Husbandry and Veterinary Services Andaman & Nicobar Island",
+            "application_link": "https://ahvs.andaman.gov.in/",
+            "application_info": "Training to farmers on technical know-how to maintain Poultry, Piggery, Goat Farming with Stipend/ without Stipend",
+            "categories": ["Direct Benefit Transfer", "Farmers"]
+        },
+        {
+            "application_name": "Department of Labor",
+            "application_link": "https://labour.and.nic.in/",
+            "application_info": "Scholarship to Hostel inmates- ITI given as per Andaman & Nicobar Administration vide order no 1530 dated 15/05/2015",
+            "categories": ["Direct Benefit Transfer", "Social Security & Pensioners"]
+        },
+        {
+            "application_name": "Directorate of Education Andaman & Nicobar Island",
+            "application_link": "https://education.andaman.gov.in/",
+            "application_info": "Reimbursement of School Stationary Kits",
+            "categories": ["Utility and Bill Payments"]
+        },
+        {
+            "application_name": "Directorate of Fisheries Andaman & Nicobar Island",
+            "application_link": "https://www.dof.gov.in/documents/state-fisheries-profile/andaman-nicobar",
+            "application_info": "To provide subsidy to fishermen for their safety at sea",
+            "categories": ["Farmers", "General"]
+        },
+        {
+            "application_name": "Directorate of Health Services",
+            "application_link": "https://dhs.andaman.gov.in/",
+            "application_info": "",
+            "categories": ["Direct Benefit Transfer", "Health & Wellness"]
+        },
+        {
+            "application_name": "Directorate of Industries Andaman & Nicobar Island",
+            "application_link": "http://andssw1.and.nic.in/swc/depts/Industry/",
+            "application_info": "Providing of Training to the needy unemployed youths and Entrepreneurs for Skill up-gradation and Self Employment",
+            "categories": ["Direct Benefit Transfer", "Education and Skills & Employment"]
+        }
+    ],
+    "Meghalaya": [
+        {
+            "application_name": "Agriculture Department Meghalaya",
+            "application_link": "https://megagriculture.gov.in/",
+            "application_info": "Online submission of Aadhaar Card to the District Agriculture Office for PM Kisan Beneficiary ONLY",
+            "categories": ["Farmers"]
+        },
+        {
+            "application_name": "Department of Commerce and Industries Meghalaya",
+            "application_link": "https://megindustry.gov.in/",
+            "application_info": "Online submission of Aadhaar Card to the District Agriculture Office for PM Kisan Beneficiary ONLY",
+            "categories": ["e-District services", "Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Department of Urban Affairs Meghalaya",
+            "application_link": "https://megurban.gov.in/",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment", "Utility & Bill Payments"]
+        },
+        {
+            "application_name": "Health and Family Welfare",
+            "application_link": "https://meghealth.gov.in/",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Home Department Police Meghalaya",
+            "application_link": "https://megpolice.gov.in/",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Labour Department Meghalaya",
+            "application_link": "https://meglabour.gov.in/",
+            "application_info": "Grant of license by Licensing Authority for Contractors employing 20 or more workers/labours under the Contract Labour Act 1970",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Personnel and A.R. Meghalaya",
+            "application_link": "https://personnel.meghalaya.gov.in/",
+            "application_info": "Return of Assests and Liabilities under Meghalaya Public Service Rules 2016",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Political Department Meghalaya",
+            "application_link": "https://meghalaya.gov.in/dept/33",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Tourism Meghalaya",
+            "application_link": "https://www.meghalayatourism.in/",
+            "application_info": "Application Form for Recognition as Provisonal/ Approved Meghalaya State Tour Operator",
+            "categories": ["e-District Services", "Education and Skills & Employment"]
+        }
+    ],
+    "Uttarakhand": [
+        {
+          "application_name": "Apuni Sarkar",
+          "application_link": "https://web.umang.gov.in/landing/department/apuni-sarkar.html",
+          "application_info": "Apuni Sarkar intends to provide multiple services from various departments to citizens.",
+          "categories": [ "e-District Services" ]
+        },
+        {
+          "application_name": "Department of Minority Welfare",
+          "application_link": "https://web.umang.gov.in/landing/department/uk-minority-welfare.html",
+          "application_info": "The Minority Welfare Department of Uttarakhand is committed to the implementation, operation and coordination of the social and economic schemes for minority sections in the society.",
+          "categories": [ "Direct Benefit Transfer (DBT)" ]
+        },
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Social Security Pension Portal",
+          "application_link": "https://web.umang.gov.in/landing/department/social-security-pension-portal.html",
+          "application_info": "Social Welfare Department caters the need of the most deprived, vulnerable and weakest sections of the society by providing assistance to dependent old- aged ,differently-abled, widows, scheduled caste,scheduled tribe,other backward class etc.",
+          "categories": [ "Social Security and Pensioners" ]
+        },
+        {
+          "application_name": "Uttarakhand-CCTNS",
+          "application_link": "https://web.umang.gov.in/landing/department/uttarakhand-cctns.html",
+          "application_info": "Users can apply for various police services.",
+          "categories": [ "Police and Legal" ]
+        },
+        {
+          "application_name": "Uttarakhand Power Corporation Limited",
+          "application_link": "https://web.umang.gov.in/landing/department/uttarakhand-power-corporation-limited.html",
+          "application_info": "UK-UPCL provides all the account and bill related services to its users",
+          "categories": [ "Utility and Bill Payments"]
+        }
+      ],
+    
+      "Jharkhand": [
+        {
+          "application_name": "CM Jan Van Yojana",
+          "application_link": "https://web.umang.gov.in/landing/department/cm-jan-van-jharkhand.html",
+          "application_info": "Jan Van Yojana is implemented to maintain environmental balance by increasing the green cover of the state",
+          "categories": [ "General" ]
+        },
+        {
+          "application_name": "Department of Personnel, Administrative Reforms and Raj Bhasa",
+          "application_link": "https://web.umang.gov.in/landing/department/department-of-personnel-administrative-reforms-and-raj-bhasa.html",
+          "application_info": "Caste Certificate for EBC I and BC II",
+          "categories": [ "e-District Services", "Utility & Bill Payments" ]
+        },
+        {
+          "application_name": "Department of Revenue (Jharkhand)",
+          "application_link": "https://web.umang.gov.in/landing/department/department-of-revenue.html",
+          "application_info": "Issue of Marriage Registration Certificate under The Jharkhand Cumpulsory Marriage Act 2017",
+          "categories": [ "e-District Services", "Utility & Bill Payments" ]
+        },
+        {
+          "application_name": "Jharkhand eKalyan",
+          "application_link": "https://web.umang.gov.in/landing/department/jharkahnd-ekalyan.html",
+          "application_info": "Jharkhand eKalyan Application has been developed to facilitate the prematric student to track the status of their Scholarship.",
+          "categories": [ "Education", "Skills and Employment" ]
+        },
+        {
+          "application_name": "Jharkhand Petrol Subsidy Scheme",
+          "application_link": "https://web.umang.gov.in/landing/department/jharkhand-petrol-subsidy-scheme.html",
+          "application_info": "Jharkhand government has launched Two Wheeler Petrol Subsidy Scheme from 26 January 2022 across the state. This scheme offers Rs. 25 per litre relief on fuel (petrol / diesel) price in the form of cashback for 2 wheelers to the poor people.",
+          "categories": [ "Mera Ration" ]
+        },
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Parivahan Sewa - Vahan",
+          "application_link": "https://web.umang.gov.in/landing/department/parivahan-sewa-vahan.html",
+          "application_info": "View and Download your vehicle Registration Certificate (from Digilocker).",
+          "categories": [ "Transport"]
+        },
+        {
+          "application_name": "Rural Development Department",
+          "application_link": "https://web.umang.gov.in/landing/department/rural-development-department.html",
+          "application_info": "Baba Saheb Bhimrao Ambedkar Awaas Yojna is completely a state sponsored scheme, under which eligible households get benefits who are not benefited under PMAY-G.",
+          "categories": [ "General"]
+        }
+      ],
+    
+      "Odisha": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Parivahan Sewa - Sarathi",
+          "application_link": "https://web.umang.gov.in/landing/department/parivahan-sewa-sarathi.html",
+          "application_info": "Parivahan Sewa- Sarathi application allows Citizen to apply for LLR, download, view or upload their licence in DigiLocker.",
+          "categories": [ "Transport"]
+        }
+      ],
+    
+      "Bihar": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "e-Labharthi",
+          "application_link": "https://web.umang.gov.in/landing/department/e-labharthi.html",
+          "application_info": "Citizens of Bihar can use this Application to verify the status of their pension payments under various schemes.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Social Security & Pensioners" ]
+        },
+        {
+          "application_name": "Post Matric Scholarship - Bihar",
+          "application_link": "https://web.umang.gov.in/landing/department/post-matric-scholarship-bihar.html",
+          "application_info": "Students from Bihar's backward and economically disadvantaged communities can check the status of their Post Matric Scholarship applications.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+        }
+      ],
+    
+      "Sikkim": [
+        {
+          "application_name": "Department of Food Civil Supplies and Consumer Affairs (Sikkim)",
+          "application_link": "https://web.umang.gov.in/landing/department/department-of-food-civil-supplies-and-consumer-affairs-sikkim.html",
+          "application_info": "The department of Department of Food Civil Supplies and Consumer Affairs (Sikkim), manages Direct Benefits Transfer Scheme for foodgrains in Sikkim. User can apply for Ration card using this Department Tile.",
+          "categories": [ "Mera Ration" ]
+        },
+        {
+          "application_name": "Food Civil Supplies Consumer Affairs Department Sikkim",
+          "application_link": "https://web.umang.gov.in/landing/department/food-civil-supplies-consumer-affairs-department-sikkim.html",
+          "application_info": "Dealer License from Legal Metrology Unit",
+          "categories": [ "e-District Services", "General" ]
+        },
+        {
+          "application_name": "Urban Dev. Housing Department Sikkim",
+          "application_link": "https://web.umang.gov.in/landing/department/urban-dev-housing-department-sikkim.html",
+          "application_info": "Allotment of Temporary Permission for Mega Events from UDD",
+          "categories": [ "e-District Services", "General" ]
+        }
+      ],
+    
+      "Nagaland": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        }
+      ],
+    
+      "Ladakh": [
+        {
+          "application_name": "AICTE",
+          "application_link": "https://web.umang.gov.in/landing/department/aicte.html",
+          "application_info": "The AICTE accredits postgraduate and graduate programs under specific categories at Indian institutions as per its charter. The user can check approved institutes, apply for PG and PMSSS Scholarship.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+        },
+        {
+          "application_name": "Department of Food Civil Supplies and Consumer Affairs (Ladakh)",
+          "application_link": "https://web.umang.gov.in/landing/department/department-of-food-civil-supplies-and-consumer-affairs-ladakh.html",
+          "application_info": "The department of Department of Food Civil Supplies and Consumer Affairs (Ladakh), manages Direct Benefits Transfer Scheme for foodgrains in Ladakh. User can apply for Ration card using this Department Tile.",
+          "categories": [ "Mera Ration"]
+        }
+      ],
+      "Gujarat": [
+        {
+          "application_name": "e-Dhara Land Records",
+          "application_link": "https://anyror.gujarat.gov.in/",
+          "application_info": "Users can view land records",
+          "categories": [ "General" ]
+        },
+        {
+          "application_name": "e-HRMS",
+          "application_link": "https://e-hrms.gujarat.gov.in/#",
+          "application_info": "The Aanganwadi Worker (AWW) and Aanganwadi Helper (AWH) recruitment process is provided through the e-HRMS Gujarat application.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+        },
+        {
+          "application_name": "e-SamajKalyan",
+          "application_link": "https://esamajkalyan.gujarat.gov.in/",
+          "application_info": "This application helps individuals who belongs to society's underprivileged sections to get economic help by applying for various schemes.",
+          "categories": [ "Social Security & Pensioners" ]
+        },
+        {
+          "application_name": "Gujarat Education Department",
+          "application_link": "https://mysy.guj.nic.in/",
+          "application_info": "The Government of Gujarat is always striving to provide incentives/Stipends to the students interested in higher study ,quality research. Gujrat Education Department offering scholarships to the economically weaker section students of Gujarat.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+        },
+        {
+          "application_name": "Gujarat-iKhedut",
+          "application_link": "https://ikhedut.gujarat.gov.in/",
+          "application_info": "This service helps Farmers/Applicant to apply for subsidy under multiple services.",
+          "categories": [ "Farmers" ]
+        },
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "My Ration-Gujarat",
+          "application_link": "https://dcs-dof.gujarat.gov.in/index-eng.htm",
+          "application_info": "Department of Food & Civil Supplies-Gujarat aims at providing food security to the poor in Gujarat State.",
+          "categories": [ "Mera Ration" ]
+        },
+        {
+          "application_name": "OJAS",
+          "application_link": "https://ojas.gujarat.gov.in/",
+          "application_info": "Recruitment portal for government of Gujarat",
+          "categories": [ "Education", "Skills & Employment" ]
+        },
+        {
+          "application_name": "Revenue Department(Gujarat)",
+          "application_link": "https://revenuedepartment.gujarat.gov.in/",
+          "application_info": "Users can view status of their certificate application",
+          "categories": [ "e-District Services" ]
+        }
+      ],
+    
+      "Madhya Pradesh": [
+        {
+          "application_name": "e-District Madhya Pradesh",
+          "application_link": "https://mpedistrict.gov.in/MPL/Index.aspx",
+          "application_info": "MP e-District application allows citizens to apply for various e-District services, track status, and download certificates using this application.",
+          "categories": [ "e-District Services" ]
+        },
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "MP eCOP",
+          "application_link": "https://www.mppolice.gov.in/en",
+          "application_info": "Users can avail important services such as telephone numbers and helpline numbers of the senior offices/police stations, search for seized vehicles, search for missing persons and unknown dead bodies.",
+          "categories": [ "Police & Legal" ]
+        },
+        {
+          "application_name": "MP e-Nagar Palika",
+          "application_link": "http://www.mpenagarpalika.gov.in/",
+          "application_info": "Municipal services to citizens through various delivery channels",
+          "categories": [ "Utility & Bill Payments" ]
+        },
+        {
+          "application_name": "MP MSME",
+          "application_link": "http://mpmsme.gov.in/",
+          "application_info": "Work for Industrialization and promote socio-economic growth.",
+          "categories": [ "General" ]
+        },
+        {
+          "application_name": "MP RCMS",
+          "application_link": "http://rcms.mp.gov.in/",
+          "application_info": "Petitioners can view the services provided by MPRCMS.",
+          "categories": [ "Utility & Bill Payments" ]
+        },
+        {
+          "application_name": "MP Transport",
+          "application_link": "http://mis.mptransport.org/MPLogin/eLogin.aspx",
+          "application_info": "citizen centric services using Information Technology in E-Governance efforts.",
+          "categories": [ "Transport"]
+        },
+        {
+          "application_name": "Shram Sewa",
+          "application_link": "https://labour.mponline.gov.in/",
+          "application_info": "Committed to create healthy work environment for smooth production process.",
+          "categories": [ "Utility & Bill Payments"]
+        }
+      ],
+    
+      "Rajasthan": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "e-Mitra Rajasthan",
+          "application_link": "http://emitra.rajasthan.gov.in/",
+          "application_info": "Track status for applications applied via eMitra portal",
+          "categories": [ "e-District Services"]
+        }
+      ],
+    
+      "Goa": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Directorate of Higher Education-Goa",
+          "application_link": "https://bursary.dhe.goa.gov.in/",
+          "application_info": "Directorate of Higher Education formulated Scheme for the grant of financial assistance towards the fees paid for various courses under Higher and Technical Education.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+        },
+        {
+          "application_name": "e-Krishi (Goa)",
+          "application_link": "https://www.agri.goa.gov.in/",
+          "application_info": "Directorate of Agriculture, Goa. to take suitable measures for the welfare of the farmer and exercise appropriate budgetary control on Agricultural development programme and other activities",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Farmers" ]
+        },
+        {
+          "application_name": "Municipal Administration GOA",
+          "application_link": "https://goaulbservice.gov.in/Home.aspx",
+          "application_info": "Citizens can avail Goa Municipal Administration services.",
+          "categories": [ "e-District Services" ]
+        }
+      ],
+    
+      "Chattisgarh": [
+        {
+          "application_name": "Chhattisgarh e-District",
+          "application_link": "https://edistrict.cgstate.gov.in/PACE/login.do",
+          "application_info": "CG e District in Chhattisgarh, the state government has launched the Chhattisgarh e-District portal for the work related to making certificates and government documents, etc. for the common citizens.",
+          "categories": [ "e-District Services" ]
+        },
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        }
+      ],
+    
+      "West Bengal": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        }
+      ],
+    
+      "Puducherry": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Department of Civil Supplies and Consumer Affairs",
+          "application_link": "https://dcsca.py.gov.in/",
+          "application_info": "This department aims to transfer subsidies directly to the people through their bank accounts.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration"]
+        }
+      ],
+      "Maharashtra": [
+    
+        {
+          "application_name": "Aaple Sarkar",
+          "application_link": "https://aaplesarkar.mahaonline.gov.in/",
+          "application_info": "Maharashtra government has come with the Aaple Sarkar Application through which the citizens will be able to register themselves and apply online for various certificates.",
+          "categories": [ "e-District Services" ]
+        },
+        {
+          "application_name": "Aaple Sarkar Maha DBT",
+          "application_link": "https://mahadbt.maharashtra.gov.in/",
+          "application_info": "Aaple Sarkar Maha DBT is a Maharashtra Govt. app that directly transfers benefits and subsidies from various social welfare schemes like E-Scholarships, Pensions, Disaster Relief, etc. to the beneficiary's bank account through DBT.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills and Employment" ]
+        },
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        }
+      ],
+    
+      "Telangana": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Telangana MeeSeva",
+          "application_link": "https://ts.meeseva.telangana.gov.in/",
+          "application_info": "The Telangana Meeseva application offers a range of government services to citizens, such as certificate issuance, bill payments and information related to various government schemes.",
+          "categories": [ "Utility & Bill Payments" ]
+        },
+        {
+          "application_name": "T-Ration (Telangana)",
+          "application_link": "http://www.civilsupplies.telangana.gov.in",
+          "application_info": "The Civil Supplies Department ensures distribution of essential commodities viz. rice, wheat, sugar, kerosene and red gram dal.",
+          "categories": [ "Utility & Bill Payments" ]
+        }
+      ],
+    
+      "Tamil Nadu": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Tamil Nadu Police",
+          "application_link": "https://eservices.tnpolice.gov.in/",
+          "application_info": "This application helps citizens to view Complaint Status, FIR status, CSR Status and Vehicle Status.",
+          "categories": [ "Police and Legal"]
+        },
+        {
+          "application_name": "TN MSME",
+          "application_link": "https://www.msmeonline.tn.gov.in/",
+          "application_info": "MSME stands for Micro, Small and Medium Enterprises. These include start-ups and other business initiatives which are comparatively small in budget and have limited operations.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Youth", "Skills and Employment" ]
+        }
+      ],
+    
+      "Kerala": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Sutharyam",
+          "application_link": "https://lmoms.kerala.gov.in",
+          "application_info": "The Kerala Department of Legal Metrology has launched the SUTHARYAM app, providing services like complaint registration and tracking, consumer rights information, fee rates, traders guidelines, and to access the officers contact details.",
+          "categories": [ "Public Grievance" ]
+        },
+        {
+          "application_name": "Civil Supplies Department - Kerala",
+          "application_link": "https://civilsupplieskerala.gov.in",
+          "application_info": "Civil Supplies Department is a regulating authority for categories: Control of Rationing and marketing of essential commodities, Consumer Affairs, Distribution of Kerosene and Consumer Dispute Redressal Commision.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        }
+      ],
+    
+      "Karnataka": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        }
+      ],
+    
+      "Dadra and Nagar Haveli": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Department of Civil Supplies and Consumer Affairs (Dadra & Nagar Haveli)",
+          "application_link": "http://fcs.dnh.nic.in/",
+          "application_info": "The department of Food and Supplies (Dadra and Nagar Haveli), manages Direct Benefits Transfer Scheme for foodgrains in Dadra and Nagar Haveli. User can apply for Ration card using this Department Tile.",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        }
+      ],
+    
+      "Andhra Pradesh": [
+        {
+          "application_name": "Mera Ration",
+          "application_link": "https://dfpd.gov.in/",
+          "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+          "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+        },
+        {
+          "application_name": "Municipal Administration and Urban Development (MAUD)",
+          "application_link": "https://cdma.ap.gov.in/en",
+          "application_info": "This service will provide you with unpaid property dues for the respective half financial years",
+          "categories": [ "Utility & Bill Payments"]
+        }
+      ]       
+}

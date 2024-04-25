@@ -1,0 +1,139 @@
+{
+    "Assam": [
+        {
+            "application_name": "Assam Power Distribution Company Ltd",
+            "application_link": "https://www.apdcl.org/website/",
+            "application_info": "APDCL is a public limited company that undertake distribution, trading and supply of electricity in the state of Assam.",
+            "categories": ["General"]
+        },
+        {
+            "application_name": "Assam Tea Employees Provident Fund Organization(A.T.E.P.F.O)",
+            "application_link": "https://atepfo.in/",
+            "application_info": "Assam tea Garden workers can track status of their ATEPFO account.",
+            "categories": ["Direct Benefit Transfer", "Social Security & Pensioners"]
+        }
+    ],
+    "Lakshadweep": [
+        {
+            "application_name": "Revenue Department (Lakshadweep)",
+            "application_link": "https://lakshadweep.gov.in",
+            "application_info": "Issue of Family Income Certificate to Individuals of Lakshadweep Islands",
+            "categories": ["e-District Services", "General"]
+        }
+    ],
+    "Manipur": [
+        {
+            "application_name": "e-District Manipur",
+            "application_link": "https://www.eservicesmanipur.gov.in/eda/",
+            "application_info": "The citizens of Manipur can apply for certificates, track application and download for certificates such as Permanent Resident, Domicile, SC, ST, Birth, Death Certificate and so on for the self and dependent.",
+            "categories": ["e-District Services"]
+        }
+    ],
+    "Andaman and Nicobar Islands": [
+        {
+            "application_name": "Agriculture Department - Andaman and Nicobar",
+            "application_link": "https://agri.and.nic.in/",
+            "application_info": "Agriculture department of Andaman and Nicobar plays as a crucial role in supporting the agricultural sector and ensuring food security, livelihoods, and sustainable development in the region.",
+            "categories": ["Farmers"]
+        },
+        {
+            "application_name": "Andaman & Nicobar Administration(ANA)",
+            "application_link": "https://edistrict.andaman.gov.in/",
+            "application_info": "",
+            "categories": ["Farmers"]
+        },
+        {
+            "application_name": "Department of Animal Husbandry and Veterinary Services Andaman & Nicobar Island",
+            "application_link": "https://ahvs.andaman.gov.in/",
+            "application_info": "Training to farmers on technical know-how to maintain Poultry, Piggery, Goat Farming with Stipend/ without Stipend",
+            "categories": ["Direct Benefit Transfer", "Farmers"]
+        },
+        {
+            "application_name": "Department of Labor",
+            "application_link": "https://labour.and.nic.in/",
+            "application_info": "Scholarship to Hostel inmates- ITI given as per Andaman & Nicobar Administration vide order no 1530 dated 15/05/2015",
+            "categories": ["Direct Benefit Transfer", "Social Security & Pensioners"]
+        },
+        {
+            "application_name": "Directorate of Education Andaman & Nicobar Island",
+            "application_link": "https://education.andaman.gov.in/",
+            "application_info": "Reimbursement of School Stationary Kits",
+            "categories": ["Utility and Bill Payments"]
+        },
+        {
+            "application_name": "Directorate of Fisheries Andaman & Nicobar Island",
+            "application_link": "https://www.dof.gov.in/documents/state-fisheries-profile/andaman-nicobar",
+            "application_info": "To provide subsidy to fishermen for their safety at sea",
+            "categories": ["Farmers", "General"]
+        },
+        {
+            "application_name": "Directorate of Health Services",
+            "application_link": "https://dhs.andaman.gov.in/",
+            "application_info": "",
+            "categories": ["Direct Benefit Transfer", "Health & Wellness"]
+        },
+        {
+            "application_name": "Directorate of Industries Andaman & Nicobar Island",
+            "application_link": "http://andssw1.and.nic.in/swc/depts/Industry/",
+            "application_info": "Providing of Training to the needy unemployed youths and Entrepreneurs for Skill up-gradation and Self Employment",
+            "categories": ["Direct Benefit Transfer", "Education and Skills & Employment"]
+        }
+    ],
+    "Meghalaya": [
+        {
+            "application_name": "Agriculture Department Meghalaya",
+            "application_link": "https://megagriculture.gov.in/",
+            "application_info": "Online submission of Aadhaar Card to the District Agriculture Office for PM Kisan Beneficiary ONLY",
+            "categories": ["Farmers"]
+        },
+        {
+            "application_name": "Department of Commerce and Industries Meghalaya",
+            "application_link": "https://megindustry.gov.in/",
+            "application_info": "Online submission of Aadhaar Card to the District Agriculture Office for PM Kisan Beneficiary ONLY",
+            "categories": ["e-District services", "Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Department of Urban Affairs Meghalaya",
+            "application_link": "https://megurban.gov.in/",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment", "Utility & Bill Payments"]
+        },
+        {
+            "application_name": "Health and Family Welfare",
+            "application_link": "https://meghealth.gov.in/",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Home Department Police Meghalaya",
+            "application_link": "https://megpolice.gov.in/",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Labour Department Meghalaya",
+            "application_link": "https://meglabour.gov.in/",
+            "application_info": "Grant of license by Licensing Authority for Contractors employing 20 or more workers/labours under the Contract Labour Act 1970",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Personnel and A.R. Meghalaya",
+            "application_link": "https://personnel.meghalaya.gov.in/",
+            "application_info": "Return of Assests and Liabilities under Meghalaya Public Service Rules 2016",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Political Department Meghalaya",
+            "application_link": "https://meghalaya.gov.in/dept/33",
+            "application_info": "",
+            "categories": ["Education and Skills & Employment"]
+        },
+        {
+            "application_name": "Tourism Meghalaya",
+            "application_link": "https://www.meghalayatourism.in/",
+            "application_info": "Application Form for Recognition as Provisonal/ Approved Meghalaya State Tour Operator",
+            "categories": ["e-District Services", "Education and Skills & Employment"]
+        }
+    ]
+}
+

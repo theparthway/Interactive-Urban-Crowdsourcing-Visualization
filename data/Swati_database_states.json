@@ -1,0 +1,125 @@
+{
+  "Maharashtra": [
+    
+    {
+      "application_name": "Aaple Sarkar",
+      "application_link": "https://aaplesarkar.mahaonline.gov.in/",
+      "application_info": "Maharashtra government has come with the Aaple Sarkar Application through which the citizens will be able to register themselves and apply online for various certificates.",
+      "categories": [ "e-District Services" ]
+    },
+    {
+      "application_name": "Aaple Sarkar Maha DBT",
+      "application_link": "https://mahadbt.maharashtra.gov.in/",
+      "application_info": "Aaple Sarkar Maha DBT is a Maharashtra Govt. app that directly transfers benefits and subsidies from various social welfare schemes like E-Scholarships, Pensions, Disaster Relief, etc. to the beneficiary's bank account through DBT.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills and Employment" ]
+    },
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    }
+  ],
+
+  "Telangana": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Telangana MeeSeva",
+      "application_link": "https://ts.meeseva.telangana.gov.in/",
+      "application_info": "The Telangana Meeseva application offers a range of government services to citizens, such as certificate issuance, bill payments and information related to various government schemes.",
+      "categories": [ "Utility & Bill Payments" ]
+    },
+    {
+      "application_name": "T-Ration (Telangana)",
+      "application_link": "http://www.civilsupplies.telangana.gov.in",
+      "application_info": "The Civil Supplies Department ensures distribution of essential commodities viz. rice, wheat, sugar, kerosene and red gram dal.",
+      "categories": [ "Utility & Bill Payments" ]
+    }
+  ],
+
+  "Tamil Nadu": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Tamil Nadu Police",
+      "application_link": "https://eservices.tnpolice.gov.in/",
+      "application_info": "This application helps citizens to view Complaint Status, FIR status, CSR Status and Vehicle Status.",
+      "categories": [ "Police and Legal"]
+    },
+    {
+      "application_name": "TN MSME",
+      "application_link": "https://www.msmeonline.tn.gov.in/",
+      "application_info": "MSME stands for Micro, Small and Medium Enterprises. These include start-ups and other business initiatives which are comparatively small in budget and have limited operations.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Youth", "Skills and Employment" ]
+    }
+  ],
+
+  "Kerala": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Sutharyam",
+      "application_link": "https://lmoms.kerala.gov.in",
+      "application_info": "The Kerala Department of Legal Metrology has launched the SUTHARYAM app, providing services like complaint registration and tracking, consumer rights information, fee rates, traders guidelines, and to access the officers contact details.",
+      "categories": [ "Public Grievance" ]
+    },
+    {
+      "application_name": "Civil Supplies Department - Kerala",
+      "application_link": "https://civilsupplieskerala.gov.in",
+      "application_info": "Civil Supplies Department is a regulating authority for categories: Control of Rationing and marketing of essential commodities, Consumer Affairs, Distribution of Kerosene and Consumer Dispute Redressal Commision.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    }
+  ],
+
+  "Karnataka": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    }
+  ],
+
+  "Dadra and Nagar Haveli": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Department of Civil Supplies and Consumer Affairs (Dadra & Nagar Haveli)",
+      "application_link": "http://fcs.dnh.nic.in/",
+      "application_info": "The department of Food and Supplies (Dadra and Nagar Haveli), manages Direct Benefits Transfer Scheme for foodgrains in Dadra and Nagar Haveli. User can apply for Ration card using this Department Tile.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    }
+  ],
+
+  "Andhra Pradesh": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://dfpd.gov.in/",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Municipal Administration and Urban Development (MAUD)",
+      "application_link": "https://cdma.ap.gov.in/en",
+      "application_info": "This service will provide you with unpaid property dues for the respective half financial years",
+      "categories": [ "Utility & Bill Payments"]
+    }
+  ]
+}

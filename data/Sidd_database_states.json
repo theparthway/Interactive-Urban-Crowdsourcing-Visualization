@@ -1,0 +1,172 @@
+{
+  "Uttarakhand": [
+    {
+      "application_name": "Apuni Sarkar",
+      "application_link": "https://web.umang.gov.in/landing/department/apuni-sarkar.html",
+      "application_info": "Apuni Sarkar intends to provide multiple services from various departments to citizens.",
+      "categories": [ "e-District Services" ]
+    },
+    {
+      "application_name": "Department of Minority Welfare",
+      "application_link": "https://web.umang.gov.in/landing/department/uk-minority-welfare.html",
+      "application_info": "The Minority Welfare Department of Uttarakhand is committed to the implementation, operation and coordination of the social and economic schemes for minority sections in the society.",
+      "categories": [ "Direct Benefit Transfer (DBT)" ]
+    },
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Social Security Pension Portal",
+      "application_link": "https://web.umang.gov.in/landing/department/social-security-pension-portal.html",
+      "application_info": "Social Welfare Department caters the need of the most deprived, vulnerable and weakest sections of the society by providing assistance to dependent old- aged ,differently-abled, widows, scheduled caste,scheduled tribe,other backward class etc.",
+      "categories": [ "Social Security and Pensioners" ]
+    },
+    {
+      "application_name": "Uttarakhand-CCTNS",
+      "application_link": "https://web.umang.gov.in/landing/department/uttarakhand-cctns.html",
+      "application_info": "Users can apply for various police services.",
+      "categories": [ "Police and Legal" ]
+    },
+    {
+      "application_name": "Uttarakhand Power Corporation Limited",
+      "application_link": "https://web.umang.gov.in/landing/department/uttarakhand-power-corporation-limited.html",
+      "application_info": "UK-UPCL provides all the account and bill related services to its users",
+      "categories": [ "Utility and Bill Payments"]
+    }
+  ],
+
+  "Jharkhand": [
+    {
+      "application_name": "CM Jan Van Yojana",
+      "application_link": "https://web.umang.gov.in/landing/department/cm-jan-van-jharkhand.html",
+      "application_info": "Jan Van Yojana is implemented to maintain environmental balance by increasing the green cover of the state",
+      "categories": [ "General" ]
+    },
+    {
+      "application_name": "Department of Personnel, Administrative Reforms and Raj Bhasa",
+      "application_link": "https://web.umang.gov.in/landing/department/department-of-personnel-administrative-reforms-and-raj-bhasa.html",
+      "application_info": "Caste Certificate for EBC I and BC II",
+      "categories": [ "e-District Services", "Utility & Bill Payments" ]
+    },
+    {
+      "application_name": "Department of Revenue (Jharkhand)",
+      "application_link": "https://web.umang.gov.in/landing/department/department-of-revenue.html",
+      "application_info": "Issue of Marriage Registration Certificate under The Jharkhand Cumpulsory Marriage Act 2017",
+      "categories": [ "e-District Services", "Utility & Bill Payments" ]
+    },
+    {
+      "application_name": "Jharkhand eKalyan",
+      "application_link": "https://web.umang.gov.in/landing/department/jharkahnd-ekalyan.html",
+      "application_info": "Jharkhand eKalyan Application has been developed to facilitate the prematric student to track the status of their Scholarship.",
+      "categories": [ "Education", "Skills and Employment" ]
+    },
+    {
+      "application_name": "Jharkhand Petrol Subsidy Scheme",
+      "application_link": "https://web.umang.gov.in/landing/department/jharkhand-petrol-subsidy-scheme.html",
+      "application_info": "Jharkhand government has launched Two Wheeler Petrol Subsidy Scheme from 26 January 2022 across the state. This scheme offers Rs. 25 per litre relief on fuel (petrol / diesel) price in the form of cashback for 2 wheelers to the poor people.",
+      "categories": [ "Mera Ration" ]
+    },
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Parivahan Sewa - Vahan",
+      "application_link": "https://web.umang.gov.in/landing/department/parivahan-sewa-vahan.html",
+      "application_info": "View and Download your vehicle Registration Certificate (from Digilocker).",
+      "categories": [ "Transport"]
+    },
+    {
+      "application_name": "Rural Development Department",
+      "application_link": "https://web.umang.gov.in/landing/department/rural-development-department.html",
+      "application_info": "Baba Saheb Bhimrao Ambedkar Awaas Yojna is completely a state sponsored scheme, under which eligible households get benefits who are not benefited under PMAY-G.",
+      "categories": [ "General"]
+    }
+  ],
+
+  "Odisha": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "Parivahan Sewa - Sarathi",
+      "application_link": "https://web.umang.gov.in/landing/department/parivahan-sewa-sarathi.html",
+      "application_info": "Parivahan Sewa- Sarathi application allows Citizen to apply for LLR, download, view or upload their licence in DigiLocker.",
+      "categories": [ "Transport"]
+    }
+  ],
+
+  "Bihar": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    },
+    {
+      "application_name": "e-Labharthi",
+      "application_link": "https://web.umang.gov.in/landing/department/e-labharthi.html",
+      "application_info": "Citizens of Bihar can use this Application to verify the status of their pension payments under various schemes.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Social Security & Pensioners" ]
+    },
+    {
+      "application_name": "Post Matric Scholarship - Bihar",
+      "application_link": "https://web.umang.gov.in/landing/department/post-matric-scholarship-bihar.html",
+      "application_info": "Students from Bihar's backward and economically disadvantaged communities can check the status of their Post Matric Scholarship applications.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+    }
+  ],
+
+  "Sikkim": [
+    {
+      "application_name": "Department of Food Civil Supplies and Consumer Affairs (Sikkim)",
+      "application_link": "https://web.umang.gov.in/landing/department/department-of-food-civil-supplies-and-consumer-affairs-sikkim.html",
+      "application_info": "The department of Department of Food Civil Supplies and Consumer Affairs (Sikkim), manages Direct Benefits Transfer Scheme for foodgrains in Sikkim. User can apply for Ration card using this Department Tile.",
+      "categories": [ "Mera Ration" ]
+    },
+    {
+      "application_name": "Food Civil Supplies Consumer Affairs Department Sikkim",
+      "application_link": "https://web.umang.gov.in/landing/department/food-civil-supplies-consumer-affairs-department-sikkim.html",
+      "application_info": "Dealer License from Legal Metrology Unit",
+      "categories": [ "e-District Services", "General" ]
+    },
+    {
+      "application_name": "Urban Dev. Housing Department Sikkim",
+      "application_link": "https://web.umang.gov.in/landing/department/urban-dev-housing-department-sikkim.html",
+      "application_info": "Allotment of Temporary Permission for Mega Events from UDD",
+      "categories": [ "e-District Services", "General" ]
+    }
+  ],
+
+  "Nagaland": [
+    {
+      "application_name": "Mera Ration",
+      "application_link": "https://web.umang.gov.in/landing/department/mera-ration.html",
+      "application_info": "Citizen can check their ration card details, commodity balance, last 6 months transaction details and Nearest Fair Price Shop",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Mera Ration" ]
+    }
+  ],
+
+  "Ladakh": [
+    {
+      "application_name": "AICTE",
+      "application_link": "https://web.umang.gov.in/landing/department/aicte.html",
+      "application_info": "The AICTE accredits postgraduate and graduate programs under specific categories at Indian institutions as per its charter. The user can check approved institutes, apply for PG and PMSSS Scholarship.",
+      "categories": [ "Direct Benefit Transfer (DBT)", "Education", "Skills & Employment" ]
+    },
+    {
+      "application_name": "Department of Food Civil Supplies and Consumer Affairs (Ladakh)",
+      "application_link": "https://web.umang.gov.in/landing/department/department-of-food-civil-supplies-and-consumer-affairs-ladakh.html",
+      "application_info": "The department of Department of Food Civil Supplies and Consumer Affairs (Ladakh), manages Direct Benefits Transfer Scheme for foodgrains in Ladakh. User can apply for Ration card using this Department Tile.",
+      "categories": [ "Mera Ration"]
+    }
+  ]
+}
