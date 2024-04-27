@@ -10,18 +10,27 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!--  Styles  -->
-    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-<div id="chart-container">
-    <h1 id="map-heading">Interactive India Map - Social Computing Course</h1>
-    <div id="chart"></div>
-</div>
+    <div id="chart-container" class="flex flex-col py-4 items-center h-screen bg-gray-100">
+        <h1 id="map-heading" class="text-3xl mb-4">Interactive India Map - Social Computing Course</h1>
+        <div id="map-and-info" class="flex place-content-evenly w-full">
+            <div id="chart" class="bg-white rounded-lg shadow-lg"></div>
+            <!-- Menu -->
+            <div id="info-menu" class="flex flex-col items-center  w-1/4 bg-gray-200 rounded-lg shadow-lg p-4">
+                <h2 class="text-lg mb-2">State Information</h2>
+                <div id="state-info" class="text-sm">
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
 <script type="text/javascript">
     var w = 600;
@@ -39,11 +48,13 @@
 
     var map = svg.append("svg:g");
 
-
     var india = map.append("svg:g")
         .attr("id", "india")
         .style('stroke', '#000')
         .style('stroke-width', '0.5');
+
+    // Menu
+    var infoMenu = d3.select("#info-menu");
 
     function getRandomColor() {
         var letters = '0123456789ABCDEF';
@@ -62,11 +73,31 @@
             .style("fill", function () {
                 return getRandomColor();
             })
+            .on("click", function (d) {
+                let properties = d.properties;
+                d3.select("#state-info-div").remove();
+
+                for (let i=0;i<properties.length;i++) {
+                    let name = properties[i].application_name;
+                    let link = properties[i].application_link;
+                    let info = properties[i].application_info;
+                    let categories = properties[i].categories.join(", ");
+    
+                    let prop = "font-medium text-blue-600 dark:text-blue-500 hover:underline";
+                    let hrprop = "h-px my-2 bg-gray-800 border-0";
+    
+                    d3.select("#state-info").insert("div").attr("id", "state-info-div");
+                    d3.select("#state-info-div").insert("hr").attr("class", hrprop);
+                    d3.select("#state-info-div").insert("a").attr("href", link).attr("class", prop).text(name);
+                    d3.select("#state-info-div").insert("p").text(info)
+                    d3.select("#state-info-div").insert("p").text("Categories: " + categories);
+                }
+            })
             .on("mouseover", handleMouseOver)
             .on("mouseout", handleMouseOut)
             .append("title")
             .text(function (d) {
-                return "State : " + d.id + "\n" + d.desc;
+                return "State : " + d.id + "\n" + d.properties.desc;
             });
 
         aa = [80.9462, 26.8467];
