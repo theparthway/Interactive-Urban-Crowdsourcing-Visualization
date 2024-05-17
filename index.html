@@ -18,12 +18,12 @@
 </head>
 
 <body>
-    <div id="chart-container" class="flex flex-col py-4 px-8 items-center h-screen bg-gray-100">
-        <h1 id="map-heading" class="text-3xl mb-4 text-center">Interactive India Map - Social Computing Course</h1>
+    <div id="chart-container" class="flex flex-col py-4 px-8 items-center h-screen bg-black">
+        <h1 id="map-heading" class="text-3xl mb-4 text-center text-white">Interactive India Map - Social Computing Course</h1>
         <div id="map-and-info" class="flex flex-col lg:flex-row lg:place-content-evenly w-full lg:h-full">
-            <div id="chart" class="bg-white rounded-lg shadow-lg w-full lg:w-1/2 mb-4 mx-4 lg:mb-0"></div>
+            <div id="chart" class="bg-black rounded-lg shadow-lg w-full lg:w-1/2 mb-4 mx-4 lg:mb-0"></div>
             <!-- Menu -->
-            <div id="info-menu" class="flex flex-col items-center w-full lg:w-1/2 bg-gray-200 rounded-lg shadow-lg p-4 overflow-y-auto h-96">
+            <div id="info-menu" class="flex flex-col items-center w-full lg:w-1/2 bg-gray-900 text-white rounded-lg shadow-lg p-4 overflow-y-auto h-96">
                 <h2 class="text-lg mb-2">State Information</h2>
                 <div id="state-info" class="text-sm"></div>
             </div>
@@ -96,7 +96,7 @@
             .on("mouseout", handleMouseOut)
             .append("title")
             .text(function (d) {
-                return "State : " + d.id + "\n" + d.properties.desc;
+                return d.id;
             });
 
     });
