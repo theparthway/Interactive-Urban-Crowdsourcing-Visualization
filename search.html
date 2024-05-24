@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- India State Map  -->
+    <title>India Map</title>
+
+    <!--  Scripts  -->
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="text/javascript" src="js/d3.geo.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--  Styles  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div id="chart-container" class="flex flex-col py-4 px-8 items-center h-screen bg-black">
+        <h1 id="map-heading" class="text-3xl mb-4 text-center text-white">Interactive India Map - Social Computing Course</h1>
+        <input type="text" id="search-bar" class="mb-4 p-2 rounded-lg w-full lg:w-1/2" placeholder="Search...">
+        <div id="map-and-info" class="flex flex-col lg:flex-row lg:place-content-evenly w-full lg:h-full">
+            <div id="chart" class="bg-black rounded-lg shadow-lg w-full lg:w-1/2 mb-4 mx-4 lg:mb-0"></div>
+            <!-- Menu -->
+            <div id="info-menu" class="flex flex-col items-center w-full lg:w-1/2 bg-gray-900 text-white rounded-lg shadow-lg p-4 overflow-y-auto h-96">
+                <h2 class="text-lg mb-2">State Information</h2>
+                <div id="state-info" class="text-sm"></div>
+            </div>
+        </div>
+    </div>
+    
+
+<script type="text/javascript">
+    var w = 600;
+    var h = 650;
+    var proj = d3.geo.mercator();
+    var path = d3.geo.path().projection(proj);
+    var t = proj.translate(); // the projection's default translation
+    var s = proj.scale() // the projection's default scale
+
+    var svg = d3.select("#chart")
+        .append("svg:svg")
+        .attr("width", w)
+        .attr("height", h)
+        .call(initialize);
+
+    var map = svg.append("svg:g");
+
+    var india = map.append("svg:g")
+        .attr("id", "india")
+        .style('stroke', '#000')
+        .style('stroke-width', '0.5');
+
+    // Menu
+    var infoMenu = d3.select("#info-menu");
+
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    var data;
+
+    d3.json("data/full_data-1.json", function (json) {
+        data = json;
+        drawMap(data);
+    });
+
+    function drawMap(json) {
+        india.selectAll("path").remove();
+
+        india.selectAll("path")
+            .data(json.features)
+            .enter().append("path")
+            .attr("d", path)
+            .style("fill", function () {
+                return getRandomColor();
+            })
+            .on("click", function (d) {
+                let properties = d.properties;
+                d3.select("#state-info-div").remove();
+
+                properties.forEach(function (prop) {
+                    let name = prop.application_name;
+                    let link = prop.application_link;
+                    let info = prop.application_info;
+                    let categories = prop.categories.join(", ");
+    
+                    let propClass = "font-medium text-blue-600 dark:text-blue-500 hover:underline";
+                    let hrprop = "h-px my-2 bg-gray-800 border-0";
+    
+                    let infoDiv = d3.select("#state-info").append("div").attr("id", "state-info-div");
+                    infoDiv.append("hr").attr("class", hrprop);
+                    infoDiv.append("a").attr("href", link).attr("class", propClass).text(name);
+                    infoDiv.append("p").text(info);
+                    infoDiv.append("p").text("Categories: " + categories);
+                });
+            })
+            .on("mouseover", handleMouseOver)
+            .on("mouseout", handleMouseOut)
+            .append("title")
+            .text(function (d) {
+                return d.id;
+            });
+
+    }
+
+    d3.select("#search-bar").on("input", function () {
+    var keyword = this.value.toLowerCase();
+    var filteredData = {
+        "type": "FeatureCollection",
+        "features": data.features.filter(function (feature) {
+            // Check if any property value contains the keyword
+            return Object.values(feature.properties).some(function(value) {
+                // Check if the value is a string and contains the keyword
+                return typeof value === "string" && value.toLowerCase().includes(keyword);
+            });
+        })
+    };
+    drawMap(filteredData);
+});
+
+
+
+
+
+    function handleMouseOver() {
+        d3.select(this).attr("stroke-width", "1.4")
+    }
+
+    function handleMouseOut() {
+        d3.select(this).attr("stroke-width", "0.5")
+    }
+
+    function initialize() {
+        proj.scale(6700);
+        proj.translate([-1240, 750]);
+    }
+</script>
+</body>
+</html>
