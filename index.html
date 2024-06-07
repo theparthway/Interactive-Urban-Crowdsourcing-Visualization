@@ -20,6 +20,7 @@
 <body>
     <div id="chart-container" class="flex flex-col py-4 px-8 items-center h-screen bg-black">
         <h1 id="map-heading" class="text-3xl mb-4 text-center text-white">Interactive India Map - Social Computing Course</h1>
+        <input type="text" id="search-bar" class="mb-4 p-2 rounded-lg w-full lg:w-1/2" placeholder="Search...">
         <div id="map-and-info" class="flex flex-col lg:flex-row lg:place-content-evenly w-full lg:h-full">
             <div id="chart" class="bg-black rounded-lg shadow-lg w-full lg:w-1/2 mb-4 mx-4 lg:mb-0"></div>
             <!-- Menu -->
@@ -32,87 +33,111 @@
     
 
 <script type="text/javascript">
-    var w = 600;
-    var h = 650;
-    var proj = d3.geo.mercator();
-    var path = d3.geo.path().projection(proj);
-    var t = proj.translate(); // the projection's default translation
-    var s = proj.scale() // the projection's default scale
+var w = 600;
+var h = 650;
+var proj = d3.geo.mercator();
+var path = d3.geo.path().projection(proj);
+var t = proj.translate(); // the projection's default translation
+var s = proj.scale() // the projection's default scale
 
-    var svg = d3.select("#chart")
-        .append("svg:svg")
-        .attr("width", w)
-        .attr("height", h)
-        .call(initialize);
+var svg = d3.select("#chart")
+    .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h)
+    .call(initialize);
 
-    var map = svg.append("svg:g");
+var map = svg.append("svg:g");
 
-    var india = map.append("svg:g")
-        .attr("id", "india")
-        .style('stroke', '#000')
-        .style('stroke-width', '0.5');
+var india = map.append("svg:g")
+    .attr("id", "india")
+    .style('stroke', '#000')
+    .style('stroke-width', '0.5');
 
-    // Menu
-    var infoMenu = d3.select("#info-menu");
+// Menu
+var infoMenu = d3.select("#info-menu");
 
-    function getRandomColor() {
-        var letters = '0123456789ABCDEF';
-        var color = '#';
-        for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
     }
+    return color;
+}
 
-    d3.json("data/full_data-1.json", function (json) {
-        india.selectAll("path")
-            .data(json.features)
-            .enter().append("path")
-            .attr("d", path)
-            .style("fill", function () {
-                return getRandomColor();
-            })
-            .on("click", function (d) {
-                let properties = d.properties;
-                d3.select("#state-info-div").remove();
+// Store the data globally
+var data;
 
-                for (let i=0;i<properties.length;i++) {
-                    let name = properties[i].application_name;
-                    let link = properties[i].application_link;
-                    let info = properties[i].application_info;
-                    let categories = properties[i].categories.join(", ");
-    
-                    let prop = "font-medium text-blue-600 dark:text-blue-500 hover:underline";
-                    let hrprop = "h-px my-2 bg-gray-800 border-0";
-    
-                    d3.select("#state-info").insert("div").attr("id", "state-info-div");
-                    d3.select("#state-info-div").insert("hr").attr("class", hrprop);
-                    d3.select("#state-info-div").insert("a").attr("href", link).attr("class", prop).text(name);
-                    d3.select("#state-info-div").insert("p").text(info)
-                    d3.select("#state-info-div").insert("p").text("Categories: " + categories);
-                }
-            })
-            .on("mouseover", handleMouseOver)
-            .on("mouseout", handleMouseOut)
-            .append("title")
-            .text(function (d) {
-                return d.id;
+d3.json("data/full_data-1.json", function (json) {
+    data = json.features; // Store the data in the global variable
+
+    india.selectAll("path")
+        .data(data)
+        .enter().append("path")
+        .attr("d", path)
+        .style("fill", function () {
+            return getRandomColor();
+        })
+        .on("click", function (d) {
+            updateStateInfo(d.properties);
+        })
+        .on("mouseover", handleMouseOver)
+        .on("mouseout", handleMouseOut)
+        .append("title")
+        .text(function (d) {
+            return d.id;
+        });
+});
+
+function handleMouseOver() {
+    d3.select(this).attr("stroke-width", "1.4")
+}
+
+function handleMouseOut() {
+    d3.select(this).attr("stroke-width", "0.5")
+}
+
+function initialize() {
+    proj.scale(6700);
+    proj.translate([-1240, 750]);
+}
+
+// Search functionality
+d3.select("#search-bar").on("input", function () {
+    var searchValue = this.value.toLowerCase();
+    var filteredData = data.filter(function (d) {
+        // if (Array.isArray(d.properties)) {
+        //     return d.properties.some(function (prop) {
+        //         return prop.application_name.toLowerCase().includes(searchValue);
+        //     });
+        // } else {
+            return Object.values(d.properties).some(function (prop) {
+                return prop.application_name.toLowerCase().includes(searchValue);
             });
-
+        // }
     });
 
-    function handleMouseOver() {
-        d3.select(this).attr("stroke-width", "1.4")
-    }
+    updateStateInfo(filteredData.reduce((acc, d) => acc.concat(Array.isArray(d.properties) ? d.properties : Object.values(d.properties)), []));
+});
 
-    function handleMouseOut() {
-        d3.select(this).attr("stroke-width", "0.5")
-    }
+function updateStateInfo(properties) {
+    d3.select("#state-info").selectAll("*").remove(); // Clear the previous state info
 
-    function initialize() {
-        proj.scale(6700);
-        proj.translate([-1240, 750]);
+    for (let i = 0; i < properties.length; i++) {
+        let name = properties[i].application_name;
+        let link = properties[i].application_link;
+        let info = properties[i].application_info;
+        let categories = properties[i].categories.join(", ");
+
+        let prop = "font-medium text-blue-600 dark:text-blue-500 hover:underline";
+        let hrprop = "h-px my-2 bg-gray-800 border-0";
+
+        d3.select("#state-info").insert("hr").attr("class", hrprop);
+        d3.select("#state-info").insert("a").attr("href", link).attr("class", prop).text(name);
+        d3.select("#state-info").insert("p").text(info)
+        d3.select("#state-info").insert("p").text("Categories: " + categories);
     }
+}
 </script>
 </body>
 </html>
